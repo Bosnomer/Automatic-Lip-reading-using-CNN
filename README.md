@@ -128,7 +128,9 @@ history = model.fit_generator(generator=train_generator,
 The model is then fitted with epochs=50 and batch size=20 as shown above. The Result and Analysis is discussed below.
 
 # Result and Analysis
-<img src="/images/acc.png" align="left" height="520px" width="450px"> <img src="/images/loss.png" align="right" height="520px" width="450px">
+<img src="/images/acc.png" align="center" height="520px" width="520px">
+<br/>
+<img src="/images/loss.png" align="center" height="520px" width="540px">
 <br/>
 As seen the model shows a decent training validation accuracy. This is not the best model but it is quite a decent model. The Confusion matrix is as shown below:
 <img src="/images/confusion.png" align="center" height="750px" width="700px">
