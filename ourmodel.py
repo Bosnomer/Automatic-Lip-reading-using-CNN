@@ -2,6 +2,7 @@ from tensorflow.keras.layers import Dense, Input, Dropout, GlobalAveragePooling2
 from tensorflow.keras.models import Model, Sequential
 from tensorflow.keras.optimizers import Adam
 
+
 # number of possible label values
 nb_classes = 20
 
