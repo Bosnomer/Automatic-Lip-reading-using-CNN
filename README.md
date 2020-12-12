@@ -17,6 +17,7 @@ Table of contents
    * [Result and Analysis](#result-and-analysis)
    * [Overall Implementation](#overall-implementation)
    * [Conclusion](#conclusion)
+   * [Future Scope](#future-scope)
 <!--te-->
 
 # Libraries
@@ -141,3 +142,6 @@ The System will extract the frames from the video, i.e. its actually getting the
 
 # Conclusion
 So this is a pretty decent project for entry level. Also some problems arise such as ambiguity, issues when new faces are detected due to limited dataset. Also it works fine with the known faces. So quite a good project to study.
+
+# Future Scope
+This project can be extended by implementing real time lip-reading, this can be achieved by adding more faces to the dataset. Ambiguity in the English language can also be handled by adding some NLP and LSTM/RNN techniques.
